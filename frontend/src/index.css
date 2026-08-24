@@ -6,8 +6,24 @@
 
 /* ----------------- CURATED COLOR PALETTE TOKENS ----------------- */
 
-/* Default Cyberpunk Dark Theme */
-:root, [data-theme="cyberpunk"] {
+/* Default Light Glass Theme */
+:root, [data-theme="light"] {
+  --bg-dark: #f8fafc;
+  --bg-card: #ffffff;
+  --border-glass: #cbd5e1;
+  --border-hover: #94a3b8;
+  --primary: #0284c7;
+  --primary-glow: rgba(2, 132, 199, 0.15);
+  --accent-purple: #6366f1;
+  --accent-purple-glow: rgba(99, 102, 241, 0.15);
+  --text-main: #0f172a;
+  --text-muted: #475569;
+  --bg-radial: radial-gradient(circle at 15% 15%, rgba(2, 132, 199, 0.05) 0%, transparent 40%),
+               radial-gradient(circle at 85% 25%, rgba(99, 102, 241, 0.04) 0%, transparent 40%);
+}
+
+/* 🌌 Cyberpunk Dark Theme */
+[data-theme="cyberpunk"] {
   --bg-dark: #090d16;
   --bg-card: rgba(17, 24, 39, 0.75);
   --border-glass: rgba(255, 255, 255, 0.08);
@@ -68,22 +84,6 @@
   --text-muted: #fdba74;
   --bg-radial: radial-gradient(circle at 15% 15%, rgba(249, 115, 22, 0.1) 0%, transparent 40%),
                radial-gradient(circle at 85% 25%, rgba(234, 179, 8, 0.08) 0%, transparent 40%);
-}
-
-/* ☀️ Clean Light Glass Theme */
-[data-theme="light"] {
-  --bg-dark: #f8fafc;
-  --bg-card: #ffffff;
-  --border-glass: #cbd5e1;
-  --border-hover: #94a3b8;
-  --primary: #0284c7;
-  --primary-glow: rgba(2, 132, 199, 0.15);
-  --accent-purple: #6366f1;
-  --accent-purple-glow: rgba(99, 102, 241, 0.15);
-  --text-main: #0f172a;
-  --text-muted: #475569;
-  --bg-radial: radial-gradient(circle at 15% 15%, rgba(2, 132, 199, 0.05) 0%, transparent 40%),
-               radial-gradient(circle at 85% 25%, rgba(99, 102, 241, 0.04) 0%, transparent 40%);
 }
 
 /* ----------------- TEST CASE CARD HIGH CONTRAST STYLING ----------------- */
