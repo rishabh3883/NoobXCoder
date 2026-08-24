@@ -2,16 +2,17 @@
   "users": [
     {
       "id": 1,
-      "name": "LO Novelist & Dev",
-      "email": "lo@enigmatic.com",
+      "name": "Admin NoobXCoder",
+      "email": "admin@noobxcoder.com",
       "role": "admin",
-      "leetcode_username": "lo_novelist",
-      "gfg_username": "lo_writer",
+      "leetcode_username": "",
       "xp": 0,
       "created_at": "2026-08-24T10:00:00.000Z"
     }
   ],
   "dsa_questions": [],
+  "webdev_tasks": [],
+  "aiml_tasks": [],
   "roadmap_nodes": [
     {
       "id": "node-1",
