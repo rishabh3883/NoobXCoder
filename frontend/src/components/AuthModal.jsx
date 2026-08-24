@@ -82,47 +82,47 @@ export default function AuthModal({ isOpen, onClose, onLogin, onRegister }) {
         <form onSubmit={handleSubmit} className="space-y-4">
           {!isLoginTab && (
             <div>
-              <label className="block text-xs font-semibold text-slate-300 mb-1">Full Name</label>
-              <div className="relative">
-                <User className="w-4 h-4 text-slate-400 absolute left-3 top-3" />
+              <label className="block text-xs font-bold text-slate-300 mb-1">Full Name</label>
+              <div className="flex items-center gap-2.5 bg-slate-900/90 border border-slate-700 focus-within:border-sky-400 px-3.5 py-2.5 rounded-xl transition-all shadow-inner">
+                <User className="w-4 h-4 text-slate-400 shrink-0" />
                 <input
                   type="text"
                   required
                   placeholder="Rishabh Gupta"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="glass-input pl-9"
+                  className="bg-transparent text-xs font-semibold text-slate-100 placeholder-slate-500 outline-none w-full border-0 p-0 focus:ring-0"
                 />
               </div>
             </div>
           )}
 
           <div>
-            <label className="block text-xs font-semibold text-slate-300 mb-1">Email / Username</label>
-            <div className="relative">
-              <Mail className="w-4 h-4 text-slate-400 absolute left-3 top-3" />
+            <label className="block text-xs font-bold text-slate-300 mb-1">Email / Username</label>
+            <div className="flex items-center gap-2.5 bg-slate-900/90 border border-slate-700 focus-within:border-sky-400 px-3.5 py-2.5 rounded-xl transition-all shadow-inner">
+              <Mail className="w-4 h-4 text-slate-400 shrink-0" />
               <input
                 type="text"
                 required
                 placeholder="admin@noobxcoder.com or student email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="glass-input pl-9"
+                className="bg-transparent text-xs font-semibold text-slate-100 placeholder-slate-500 outline-none w-full border-0 p-0 focus:ring-0"
               />
             </div>
           </div>
 
           <div>
-            <label className="block text-xs font-semibold text-slate-300 mb-1">Password</label>
-            <div className="relative">
-              <KeyRound className="w-4 h-4 text-slate-400 absolute left-3 top-3" />
+            <label className="block text-xs font-bold text-slate-300 mb-1">Password</label>
+            <div className="flex items-center gap-2.5 bg-slate-900/90 border border-slate-700 focus-within:border-sky-400 px-3.5 py-2.5 rounded-xl transition-all shadow-inner">
+              <KeyRound className="w-4 h-4 text-slate-400 shrink-0" />
               <input
                 type="password"
                 required
                 placeholder="••••••••"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="glass-input pl-9"
+                className="bg-transparent text-xs font-semibold text-slate-100 placeholder-slate-500 outline-none w-full border-0 p-0 focus:ring-0"
               />
             </div>
           </div>
