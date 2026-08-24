@@ -24,13 +24,13 @@ export default function App() {
   const [sessions, setSessions] = useState([]);
   const [user, setUser] = useState(null);
   
-  // Theme & Background States
+  // Theme & Background States (Default: Light Mode)
   const [theme, setTheme] = useState(() => {
-    return localStorage.getItem('lo_theme') || 'cyberpunk';
+    return localStorage.getItem('lo_theme') || 'light';
   });
 
   const [bgStyle, setBgStyle] = useState(() => {
-    return localStorage.getItem('lo_bg_style') || 'aurora';
+    return localStorage.getItem('lo_bg_style') || 'glass';
   });
 
   // Modals
