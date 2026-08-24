@@ -40,24 +40,24 @@ export default function Navbar({ activeTab, setActiveTab, streak, user, theme, s
   ];
 
   return (
-    <header className="sticky top-0 z-50 px-4 py-2.5 border-b border-slate-800 bg-[rgba(9,13,22,0.92)] backdrop-blur-md transition-all shadow-md">
-      <div className="max-w-7xl mx-auto flex items-center justify-between gap-3 flex-nowrap">
+    <header className="sticky top-0 z-50 px-2 sm:px-4 py-2 border-b border-slate-800 bg-[rgba(9,13,22,0.92)] backdrop-blur-md transition-all shadow-md">
+      <div className="max-w-7xl mx-auto flex items-center justify-between gap-2 sm:gap-3 overflow-x-auto no-scrollbar py-0.5">
         
         {/* Brand Logo */}
-        <div className="flex items-center gap-3 cursor-pointer" onClick={() => setActiveTab('bento')}>
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-500 to-purple-600 flex items-center justify-center shadow-lg shadow-sky-500/20">
-            <Code2 className="w-6 h-6 text-white" />
+        <div className="flex items-center gap-2 sm:gap-3 cursor-pointer shrink-0" onClick={() => setActiveTab('bento')}>
+          <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-sky-500 to-purple-600 flex items-center justify-center shadow-lg shadow-sky-500/20 shrink-0">
+            <Code2 className="w-5 h-5 text-white" />
           </div>
           <div>
-            <h1 className="text-xl font-extrabold bg-gradient-to-r from-sky-400 via-purple-300 to-pink-400 bg-clip-text text-transparent brand-title">
+            <h1 className="text-base sm:text-xl font-extrabold bg-gradient-to-r from-sky-400 via-purple-300 to-pink-400 bg-clip-text text-transparent brand-title whitespace-nowrap">
               NoobXCoder
             </h1>
-            <p className="text-xs text-slate-400 brand-sub">Daily Study Tracker</p>
+            <p className="text-[10px] sm:text-xs text-slate-400 brand-sub hidden sm:block">Daily Study Tracker</p>
           </div>
         </div>
 
         {/* Friendly Tab Navigation Bar */}
-        <nav className="flex items-center gap-1 bg-slate-900/80 p-1.5 rounded-xl border border-slate-800 nav-container">
+        <nav className="flex items-center gap-1 bg-slate-900/80 p-1 sm:p-1.5 rounded-xl border border-slate-800 nav-container overflow-x-auto no-scrollbar shrink-0">
           <button
             onClick={() => setActiveTab('bento')}
             className={`flex items-center gap-1.5 px-2.5 py-2 rounded-lg text-xs font-bold whitespace-nowrap transition-all ${

@@ -426,3 +426,34 @@ h1, h2, h3, h4, h5, h6 {
   color: #ef4444;
   border: 1px solid rgba(239, 68, 68, 0.25);
 }
+
+/* ----------------- MOBILE RESPONSIVE UTILITIES ----------------- */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Touch friendly scrolling for mobile tables */
+.overflow-x-auto {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Responsive font & layout fixes for small mobile devices (<640px) */
+@media (max-width: 640px) {
+  body {
+    font-size: 14px;
+  }
+  .brand-title {
+    font-size: 1.1rem !important;
+  }
+  .brand-sub {
+    font-size: 0.65rem !important;
+  }
+  .glass-card {
+    padding: 1rem !important;
+    border-radius: 0.85rem !important;
+  }
+}
