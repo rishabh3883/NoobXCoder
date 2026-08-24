@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "LO Novelist & Dev",
+      "email": "lo@enigmatic.com",
+      "role": "admin",
+      "leetcode_username": "lo_novelist",
+      "gfg_username": "lo_writer",
+      "xp": 0,
+      "created_at": "2026-08-24T10:00:00.000Z"
+    }
+  ],
+  "dsa_questions": [],
+  "roadmap_nodes": [
+    {
+      "id": "node-1",
+      "title": "1. Arrays & Hashing",
+      "category": "Foundations",
+      "prerequisites": [],
+      "status": "In Progress",
+      "solved_count": 0,
+      "total_required": 10,
+      "description": "HashMap, HashSet, Two Pointers, Prefix Sum basics."
+    },
+    {
+      "id": "node-2",
+      "title": "2. Two Pointers & Sliding Window",
+      "category": "Foundations",
+      "prerequisites": ["node-1"],
+      "status": "Locked",
+      "solved_count": 0,
+      "total_required": 8,
+      "description": "Subarrays, fixed window size, dynamic window shrinking."
+    },
+    {
+      "id": "node-3",
+      "title": "3. Binary Search & Fast-Slow Pointers",
+      "category": "Core Algorithms",
+      "prerequisites": ["node-1"],
+      "status": "Locked",
+      "solved_count": 0,
+      "total_required": 10,
+      "description": "Search space reduction, monotonic functions."
+    },
+    {
+      "id": "node-4",
+      "title": "4. Binary Trees & BST",
+      "category": "Data Structures",
+      "prerequisites": ["node-2"],
+      "status": "Locked",
+      "solved_count": 0,
+      "total_required": 12,
+      "description": "Tree Traversals (DFS/BFS), Height, Diameter, Lowest Common Ancestor."
+    },
+    {
+      "id": "node-5",
+      "title": "5. Graphs & Shortest Paths",
+      "category": "Advanced DSA",
+      "prerequisites": ["node-4"],
+      "status": "Locked",
+      "solved_count": 0,
+      "total_required": 15,
+      "description": "Dijkstra, Topological Sort, Disjoint Set Union (DSU), Cycle Detection."
+    },
+    {
+      "id": "node-6",
+      "title": "6. Dynamic Programming (1D & 2D)",
+      "category": "Advanced DSA",
+      "prerequisites": ["node-4", "node-5"],
+      "status": "Locked",
+      "solved_count": 0,
+      "total_required": 20,
+      "description": "Memoization, Tabulation, Knapsack, Longest Common Subsequence."
+    }
+  ],
+  "webdev_resources": [],
+  "attendance": [],
+  "doubts": [],
+  "sessions": []
+}

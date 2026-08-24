@@ -1,0 +1,91 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "LO Novelist & Dev",
+      "email": "lo@enigmatic.com",
+      "password": "$2b$10$1aeKEx2XZJqh5HqYrC/VTuKvuDqvluzbYCIqQYzKCvpgW4keETYeO",
+      "role": "admin",
+      "created_at": "2026-08-24T07:20:12.133Z"
+    },
+    {
+      "id": 2,
+      "name": "rishabh Gupta",
+      "email": "rishabhgupta26225@gmail.com",
+      "password": "$2b$10$kvgg9xPuMfmmUz6Y1hfCN.hO3zAfWPHAR4nKqYcCqjPvpeda.SdxS",
+      "role": "student",
+      "leetcode_username": "",
+      "xp": 0,
+      "created_at": "2026-08-24T08:58:51.609Z"
+    }
+  ],
+  "dsa_questions": [],
+  "webdev_resources": [],
+  "attendance": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "date": "2026-08-24",
+      "status": "Present",
+      "note": "Completed 2 LeetCode problems + Live Stream"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "date": "2026-08-23",
+      "status": "Present",
+      "note": "GFG Linked List practice"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "date": "2026-08-22",
+      "status": "Present",
+      "note": "Sliding Window Revision"
+    }
+  ],
+  "doubts": [
+    {
+      "id": 1,
+      "student_name": "Aarav Sharma",
+      "student_email": "aarav@gmail.com",
+      "question": "Bhai array destructuring me syntax error aa raha hai. Kaise handle karu?",
+      "code_context": "const [a, b, ...rest] = data;",
+      "amount": 10,
+      "payment_status": "Paid",
+      "txn_id": "UPI98347109238",
+      "status": "Pending",
+      "created_at": "2026-08-24T07:20:12.133Z"
+    },
+    {
+      "id": 2,
+      "student_name": "Priya Verma",
+      "student_email": "priya@tech.io",
+      "question": "LeetCode #42 me space complexity O(1) me reduce kaise kare?",
+      "code_context": "while(left < right) { ... }",
+      "amount": 10,
+      "payment_status": "Paid",
+      "txn_id": "UPI48291039841",
+      "status": "Resolved",
+      "created_at": "2026-08-24T07:20:12.133Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "student_name": "Rohan Gupta",
+      "student_email": "rohan@dev.in",
+      "session_type": "1-on-1 Doubt & Resume Review",
+      "preferred_date": "2026-08-24",
+      "preferred_time": "06:00 PM",
+      "amount": 10,
+      "payment_status": "Paid",
+      "txn_id": "UPI7748392019",
+      "meeting_status": "Scheduled",
+      "created_at": "2026-08-24T07:20:12.133Z"
+    }
+  ],
+  "webdev_tasks": [],
+  "aiml_tasks": [],
+  "roadmap_nodes": []
+}
