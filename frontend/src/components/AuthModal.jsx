@@ -50,8 +50,9 @@ export default function AuthModal({ isOpen, onClose, onLogin, onRegister }) {
         <div className="flex items-center justify-between border-b border-slate-800 pb-4 mb-6">
           <div className="flex items-center gap-2">
             <button
+              type="button"
               onClick={() => setIsLoginTab(true)}
-              className={`text-base font-bold pb-1 transition-colors ${
+              className={`text-base font-bold pb-1 transition-colors cursor-pointer ${
                 isLoginTab ? 'text-sky-400 border-b-2 border-sky-400' : 'text-slate-400 hover:text-white'
               }`}
             >
@@ -59,8 +60,9 @@ export default function AuthModal({ isOpen, onClose, onLogin, onRegister }) {
             </button>
             <span className="text-slate-600">/</span>
             <button
+              type="button"
               onClick={() => setIsLoginTab(false)}
-              className={`text-base font-bold pb-1 transition-colors ${
+              className={`text-base font-bold pb-1 transition-colors cursor-pointer ${
                 !isLoginTab ? 'text-sky-400 border-b-2 border-sky-400' : 'text-slate-400 hover:text-white'
               }`}
             >
@@ -68,7 +70,7 @@ export default function AuthModal({ isOpen, onClose, onLogin, onRegister }) {
             </button>
           </div>
 
-          <button onClick={onClose} className="text-slate-400 hover:text-white font-bold text-sm">
+          <button type="button" onClick={onClose} className="text-slate-400 hover:text-white font-bold text-sm cursor-pointer">
             ✕
           </button>
         </div>
